@@ -1,0 +1,31 @@
+{
+  "name": "bovnara-clips",
+  "version": "1.0.0",
+  "description": "Seedance 2.5 text-to-video example using the Higgsfield SDK",
+  "scripts": {
+    "start": "tsx index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BOVNARA/Bovnara-Clips.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BOVNARA/Bovnara-Clips/issues"
+  },
+  "homepage": "https://github.com/BOVNARA/Bovnara-Clips#readme",
+  "dependencies": {
+    "@higgsfield/client": "^0.2.6",
+    "dotenv": "^18.0.10"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.11",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "type": "module",
+  "private": true
+}

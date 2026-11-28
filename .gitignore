@@ -1,0 +1,9 @@
+node_modules/
+
+# Secrets: never commit local env files
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
